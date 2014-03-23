@@ -9,7 +9,7 @@ To Build
 	./configure
 	make
 
-This will build bitcoin-qt as well if the dependencies are met.
+This will build dogecoin-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -17,7 +17,7 @@ Dependencies
  Library     | Purpose          | Description
  ------------|------------------|----------------------
  libssl      | SSL Support      | Secure communications
- libdb4.8    | Berkeley DB      | Wallet storage
+ libdb5.1    | Berkeley DB      | Wallet storage
  libboost    | Boost            | C++ Library
  miniupnpc   | UPnP Support     | Optional firewall-jumping support
  qt          | GUI              | GUI toolkit
@@ -45,7 +45,7 @@ Licenses of statically linked libraries:
 - Versions used in this release:
 -  GCC           4.3.3
 -  OpenSSL       1.0.1c
--  Berkeley DB   4.8.30.NC
+-  Berkeley DB   5.1
 -  Boost         1.55
 -  miniupnpc     1.6
 -  qt            4.8.3
@@ -64,7 +64,7 @@ for Ubuntu 12.04 and later:
 
 	sudo apt-get install libboost-all-dev
 
- db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
+ db5.1 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
  You can add the repository using the following command:
 
         sudo add-apt-repository ppa:bitcoin/bitcoin
@@ -78,7 +78,6 @@ for Ubuntu 13.10:
 	remove libboost1.54-all-dev and install libboost1.53-all-dev instead.
 
 for Debian 7 (Wheezy) and later:
- The oldstable repository contains db4.8 packages.
  Add the following line to /etc/apt/sources.list,
  replacing [mirror] with any official debian mirror.
 
@@ -90,8 +89,8 @@ To enable the change run
 
 for other Ubuntu & Debian:
 
-	sudo apt-get install libdb4.8-dev
-	sudo apt-get install libdb4.8++-dev
+	sudo apt-get install libdb5.1-dev
+	sudo apt-get install libdb5.1++-dev
 	sudo apt-get install libboost1.55-all-dev
 
 Optional:
@@ -118,12 +117,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitcoin-qt executable will be
+Once these are installed, they will be found by configure and a dogecoin-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip bitcoind" to strip the debug
+The release is built with GCC and then "strip dogecoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -138,7 +137,7 @@ miniupnpc
 
 Berkeley DB
 -----------
-You need Berkeley DB 4.8.  If you have to build Berkeley DB yourself:
+You need Berkeley DB 5.1.  If you have to build Berkeley DB yourself:
 
 	cd build_unix/
 	../dist/configure --enable-cxx
@@ -181,7 +180,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./bitcoin
+    	scanelf -e ./dogecoin
 
     The output should contain:
      TYPE
@@ -195,7 +194,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./bitcoin`
+    `scanelf -e ./dogecoin`
 
     the output should contain:
 	STK/REL/PTL
@@ -210,7 +209,7 @@ disable-wallet mode with:
 
     ./configure --disable-wallet
 
-In this case there is no dependency on Berkeley DB 4.8.
+In this case there is no dependency on Berkeley DB 5.1.
 
 Mining is also possible in disable-wallet mode, but only using the `getblocktemplate` RPC
 call not `getwork`.
