@@ -1,4 +1,4 @@
-Dogecoin 0.9.0rc1 BETA
+Inutoshi 0.9.0rc1 BETA
 
 Copyright (c) 2009-2014 Bitcoin Core Developers
 
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Dogecoin is a free open source peer-to-peer electronic cash system that is
+Inutoshi is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -21,10 +21,10 @@ Setup
 -----
 Unpack the files into a directory and run dogecoin-qt.exe.
 
-Dogecoin Core is the original Dogecoin client and it builds the backbone of the network.
+Inutoshi is the a Dogecoin client based on the Bitcoin client, and it builds the
+backbone of the network.
 However, it downloads and stores the entire history of Dogecoin transactions;
-depending on the speed of your computer and network connection, the synchronization
-process can take anywhere from a few hours to a day or more.
+depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 See the Dogecoin wiki at:
   http://dogeco.in/

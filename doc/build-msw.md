@@ -76,8 +76,8 @@ Dogecoin
 -------
 MSYS shell:
 
-	cd \dogecoin
+	cd \inutoshi
 	sh autogen.sh
 	sh configure
 	mingw32-make
-	strip dogecoind.exe
+	strip inutoshid.exe

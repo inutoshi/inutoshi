@@ -14,24 +14,24 @@ The following are some helpful notes on how to run Dogecoin on your native platf
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Dogecoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Inutoshi-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/dogecoin-qt (GUI, 32-bit) or bin/32/dogecoind (headless, 32-bit)
-- bin/64/dogecoin-qt (GUI, 64-bit) or bin/64/dogecoind (headless, 64-bit)
+- bin/32/inutoshi-qt (GUI, 32-bit) or bin/32/inutoshid (headless, 32-bit)
+- bin/64/inutoshi-qt (GUI, 64-bit) or bin/64/inutoshid (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run dogecoin-qt.exe.
+Unpack the files into a directory, and then run inutoshi-qt.exe.
 
 ### OSX
 
-Drag Dogecoin-Qt to your applications folder, and then run Dogecoin-Qt.
+Drag Inutoshi-Qt to your applications folder, and then run Inutoshi-Qt.
 
 ### Need Help?
 

@@ -64,7 +64,7 @@ Release Process
 	./bin/gbuild ../dogecoin/contrib/gitian-descriptors/protobuf-win.yml
 	mv build/out/protobuf-*.zip inputs/
 
- Build dogecoind and dogecoin-qt on Linux32, Linux64, and Win32:
+ Build inutoshid and dogecoin-qt on Linux32, Linux64, and Win32:
   
 	./bin/gbuild --commit bitcoin=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
@@ -112,9 +112,9 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
         export CODESIGNARGS='--keychain ...path_to_keychain --sign "Developer ID Application: DOGECOIN FOUNDATION, INC., THE"'
-	python2.7 contrib/macdeploy/macdeployqtplus Dogecoin-Qt.app -sign -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+	python2.7 contrib/macdeploy/macdeployqtplus Inutoshi-Qt.app -sign -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
- Build output expected: Dogecoin-Qt.dmg
+ Build output expected: Inutoshi-Qt.dmg
 
 ###Next steps:
 
