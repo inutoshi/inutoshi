@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin Core</source>
-        <translation>Om Dogecoin Core</translation>
+        <source>About Inutoshi</source>
+        <translation>Om Inutoshi</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Dogecoin Core&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;Inutoshi&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Inutoshi&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,8 +33,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+0"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Core utviklerne</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Inutoshi utviklerne</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -542,7 +542,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-401"/>
-        <source>Dogecoin Core</source>
+        <source>Inutoshi</source>
         <translation>Bitcoin Kjerne</translation>
     </message>
     <message>
@@ -553,8 +553,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Om Dogecoin Core</translation>
+        <source>&amp;About Inutoshi</source>
+        <translation>&amp;Om Inutoshi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -578,7 +578,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Dogecoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Inutoshi help message to get a list with possible Bitcoin command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1111,12 +1111,12 @@ Adresse: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Dogecoin Core - Command-line options</source>
+        <source>Inutoshi - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Dogecoin Core</source>
+        <source>Inutoshi</source>
         <translation>Bitcoin Kjerne</translation>
     </message>
     <message>
@@ -1170,18 +1170,18 @@ Adresse: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Velkommen til Dogecoin Core.</translation>
+        <source>Welcome to Inutoshi.</source>
+        <translation>Velkommen til Inutoshi.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Siden dette er første gang programmet starter, kan du velge hvor Dogecoin Core skal lagre sine data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Inutoshi will store its data.</source>
+        <translation>Siden dette er første gang programmet starter, kan du velge hvor Inutoshi skal lagre sine data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Dogecoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core vil laste ned og lagre en kopi av Bitcoins blokk kjede. Minst %1GB av data vil bli lagret i denne mappen, og det vil vokse over tid. Lommeboken vil også bli lagret i denne mappen.</translation>
+        <source>Inutoshi will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Inutoshi vil laste ned og lagre en kopi av Bitcoins blokk kjede. Minst %1GB av data vil bli lagret i denne mappen, og det vil vokse over tid. Lommeboken vil også bli lagret i denne mappen.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2468,7 +2468,7 @@ Adresse: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+48"/>
-        <source>Dogecoin Core is shutting down...</source>
+        <source>Inutoshi is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2668,13 +2668,13 @@ Adresse: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
-        <source>Dogecoin Core</source>
+        <source>Inutoshi</source>
         <translation>Bitcoin Kjerne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Core utviklerne</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Inutoshi utviklerne</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3477,7 +3477,7 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Bitcoin varsel&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Dogecoin Core Daemon</source>
+        <source>Inutoshi Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>

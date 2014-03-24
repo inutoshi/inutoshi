@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin Core</source>
-        <translation>À propos de Dogecoin Core</translation>
+        <source>About Inutoshi</source>
+        <translation>À propos de Inutoshi</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;Dogecoin Core&lt;/b&gt; </translation>
+        <source>&lt;b&gt;Inutoshi&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;Inutoshi&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Les développeurs Dogecoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Les développeurs Inutoshi</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -280,8 +280,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin Core va à présent se fermer pour terminer le chiffrement. N&apos;oubliez pas que le chiffrement de votre portefeuille n&apos;est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Inutoshi will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Inutoshi va à présent se fermer pour terminer le chiffrement. N&apos;oubliez pas que le chiffrement de votre portefeuille n&apos;est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -542,8 +542,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-401"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+163"/>
@@ -553,8 +553,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>À &amp;propos de Dogecoin Core</translation>
+        <source>&amp;About Inutoshi</source>
+        <translation>À &amp;propos de Inutoshi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -578,8 +578,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Afficher le message d&apos;aide de Dogecoin Core pour obtenir une liste des options de ligne de commande Dogecoin possibles.</translation>
+        <source>Show the Inutoshi help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Afficher le message d&apos;aide de Inutoshi pour obtenir une liste des options de ligne de commande Dogecoin possibles.</translation>
     </message>
     <message>
         <location line="+159"/>
@@ -707,8 +707,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+435"/>
-        <source>A fatal error occurred. Dogecoin Core can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. Dogecoin Core ne peut plus continuer de façon sûre et va s&apos;arrêter.</translation>
+        <source>A fatal error occurred. Inutoshi can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. Inutoshi ne peut plus continuer de façon sûre et va s&apos;arrêter.</translation>
     </message>
 </context>
 <context>
@@ -1111,13 +1111,13 @@ Adresse : %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Dogecoin Core - Command-line options</source>
-        <translation>Dogecoin Core - Options de ligne de commande</translation>
+        <source>Inutoshi - Command-line options</source>
+        <translation>Inutoshi - Options de ligne de commande</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1169,18 +1169,18 @@ Adresse : %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Bienvenue à Dogecoin Core.</translation>
+        <source>Welcome to Inutoshi.</source>
+        <translation>Bienvenue à Inutoshi.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Comme c&apos;est la première fois que le logiciel est lancé, vous pouvez choisir où Dogecoin Core stockera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Inutoshi will store its data.</source>
+        <translation>Comme c&apos;est la première fois que le logiciel est lancé, vous pouvez choisir où Inutoshi stockera ses données.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core va télécharger et stocker une copie de la chaîne de blocs Dogecoin. Au moins %1Go de données seront stockées dans ce répertoire et cela augmentera avec le temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
+        <source>Inutoshi will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Inutoshi va télécharger et stocker une copie de la chaîne de blocs Dogecoin. Au moins %1Go de données seront stockées dans ce répertoire et cela augmentera avec le temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1270,13 +1270,13 @@ Adresse : %4
     </message>
     <message>
         <location line="-131"/>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Démarrer Dogecoin Core automatiquement après avoir ouvert une session sur l&apos;ordinateur.</translation>
+        <source>Automatically start Inutoshi after logging in to the system.</source>
+        <translation>Démarrer Inutoshi automatiquement après avoir ouvert une session sur l&apos;ordinateur.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>&amp;Démarrer Dogecoin Core lors de l&apos;ouverture d&apos;une session</translation>
+        <source>&amp;Start Inutoshi on system login</source>
+        <translation>&amp;Démarrer Inutoshi lors de l&apos;ouverture d&apos;une session</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1420,8 +1420,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de Dogecoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Inutoshi.</source>
+        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de Inutoshi.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1845,8 +1845,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le journal de débogage de Dogecoin Core depuis le répertoire de données actuel. Ceci peut prendre quelques secondes pour les journaux de grande taille.</translation>
+        <source>Open the Inutoshi debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le journal de débogage de Inutoshi depuis le répertoire de données actuel. Ceci peut prendre quelques secondes pour les journaux de grande taille.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1855,8 +1855,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Dogecoin Core .</translation>
+        <source>Welcome to the Inutoshi RPC console.</source>
+        <translation>Bienvenue sur la console RPC de Inutoshi .</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2467,8 +2467,8 @@ Adresse : %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+48"/>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Arrêt de Dogecoin Core...</translation>
+        <source>Inutoshi is shutting down...</source>
+        <translation>Arrêt de Inutoshi...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2667,13 +2667,13 @@ Adresse : %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Les développeurs Dogecoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Les développeurs Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3397,8 +3397,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Dogecoin&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Dogecoin Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. Inutoshi is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Inutoshi fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3442,8 +3442,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Dogecoin&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont justes ! Si votre horloge n&apos;est pas à l&apos;heure, Dogecoin Core ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Inutoshi will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont justes ! Si votre horloge n&apos;est pas à l&apos;heure, Inutoshi ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3477,13 +3477,13 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Dogecoin&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Dogecoin Core Daemon</source>
-        <translation>Démon Dogecoin Core</translation>
+        <source>Inutoshi Daemon</source>
+        <translation>Démon Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Dogecoin Core RPC client version</source>
-        <translation>Version du client RPC Dogecoin Core</translation>
+        <source>Inutoshi RPC client version</source>
+        <translation>Version du client RPC Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3992,13 +3992,13 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Dogecoin&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>Erreur lors du chargement de wallet.dat : le portefeuille exige une version plus récente de Dogecoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Inutoshi</source>
+        <translation>Erreur lors du chargement de wallet.dat : le portefeuille exige une version plus récente de Inutoshi</translation>
     </message>
     <message>
         <location line="+99"/>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Dogecoin Core pour terminer l&apos;opération.</translation>
+        <source>Wallet needed to be rewritten: restart Inutoshi to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer Inutoshi pour terminer l&apos;opération.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -4057,8 +4057,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Dogecoin&quot; admin@f
     </message>
     <message>
         <location line="-32"/>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Dogecoin Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. Inutoshi is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Inutoshi fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location line="+96"/>

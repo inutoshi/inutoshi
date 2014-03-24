@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin Core</source>
-        <translation>О Dogecoin Core</translation>
+        <source>About Inutoshi</source>
+        <translation>О Inutoshi</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>версия &lt;b&gt;Dogecoin Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Inutoshi&lt;/b&gt; version</source>
+        <translation>версия &lt;b&gt;Inutoshi&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,8 +33,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Разработчики Dogecoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Разработчики Inutoshi</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -542,8 +542,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-401"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+163"/>
@@ -553,8 +553,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;О Dogecoin Core</translation>
+        <source>&amp;About Inutoshi</source>
+        <translation>&amp;О Inutoshi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -578,8 +578,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Dogecoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Показать помощь по Dogecoin Core и получить список доступных опций командной строки.</translation>
+        <source>Show the Inutoshi help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Показать помощь по Inutoshi и получить список доступных опций командной строки.</translation>
     </message>
     <message>
         <location line="+159"/>
@@ -1111,13 +1111,13 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Dogecoin Core - Command-line options</source>
-        <translation>Dogecoin Core - опции командной строки</translation>
+        <source>Inutoshi - Command-line options</source>
+        <translation>Inutoshi - опции командной строки</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1169,18 +1169,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Добро пожаловать в Dogecoin Core.</translation>
+        <source>Welcome to Inutoshi.</source>
+        <translation>Добро пожаловать в Inutoshi.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Dogecoin Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where Inutoshi will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Inutoshi будет хранить данные.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Dogecoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
+        <source>Inutoshi will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Inutoshi скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2467,8 +2467,8 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+48"/>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core выключается...</translation>
+        <source>Inutoshi is shutting down...</source>
+        <translation>Inutoshi выключается...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2667,13 +2667,13 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Разработчики Dogecoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Разработчики Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3478,8 +3478,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Dogecoin Core Daemon</source>
-        <translation>Демон Dogecoin Core</translation>
+        <source>Inutoshi Daemon</source>
+        <translation>Демон Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>

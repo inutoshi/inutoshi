@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin Core</source>
-        <translation>Over Dogecoin Core</translation>
+        <source>About Inutoshi</source>
+        <translation>Over Inutoshi</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt; Dogecoin Core&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Inutoshi&lt;/b&gt; version</source>
+        <translation>&lt;b&gt; Inutoshi&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,8 +33,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>De Dogecoin Core ontwikkelaars</translation>
+        <source>The Inutoshi developers</source>
+        <translation>De Inutoshi ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -536,7 +536,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-401"/>
-        <source>Dogecoin Core</source>
+        <source>Inutoshi</source>
         <translation>Bitcoin Kern</translation>
     </message>
     <message>
@@ -547,8 +547,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Over Dogecoin Core</translation>
+        <source>&amp;About Inutoshi</source>
+        <translation>&amp;Over Inutoshi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -572,7 +572,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Dogecoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Inutoshi help message to get a list with possible Bitcoin command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1095,12 +1095,12 @@ Adres: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Dogecoin Core - Command-line options</source>
-        <translation>Dogecoin Core - Commandoregel-opties</translation>
+        <source>Inutoshi - Command-line options</source>
+        <translation>Inutoshi - Commandoregel-opties</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+38"/>
-        <source>Dogecoin Core</source>
+        <source>Inutoshi</source>
         <translation>Bitcoin Kern</translation>
     </message>
     <message>
@@ -1153,18 +1153,18 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Welkom bij Dogecoin Core</translation>
+        <source>Welcome to Inutoshi.</source>
+        <translation>Welkom bij Inutoshi</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Omdat dit de eerste keer is dat het programma gestart is, kan je nu kiezen waar Dogecoin Core de data moet opslaan.</translation>
+        <source>As this is the first time the program is launched, you can choose where Inutoshi will store its data.</source>
+        <translation>Omdat dit de eerste keer is dat het programma gestart is, kan je nu kiezen waar Inutoshi de data moet opslaan.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Dogecoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin Core zal een kopie van de Bitcoin blok keten downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee ook in deze map.</translation>
+        <source>Inutoshi will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Inutoshi zal een kopie van de Bitcoin blok keten downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee ook in deze map.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2441,8 +2441,8 @@ Adres: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+48"/>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core is aan het afsluiten...</translation>
+        <source>Inutoshi is shutting down...</source>
+        <translation>Inutoshi is aan het afsluiten...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2641,13 +2641,13 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
-        <source>Dogecoin Core</source>
+        <source>Inutoshi</source>
         <translation>Bitcoin Kern</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>De Dogecoin Core ontwikkelaars</translation>
+        <source>The Inutoshi developers</source>
+        <translation>De Inutoshi ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3437,8 +3437,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Dogecoin Core Daemon</source>
-        <translation>Dogecoin Core Daemon</translation>
+        <source>Inutoshi Daemon</source>
+        <translation>Inutoshi Daemon</translation>
     </message>
     <message>
         <location line="+1"/>

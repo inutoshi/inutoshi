@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin Core</source>
-        <translation>Acerca de Dogecoin Core</translation>
+        <source>About Inutoshi</source>
+        <translation>Acerca de Inutoshi</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>Versión de &lt;b&gt;Dogecoin Core&lt;b&gt;</translation>
+        <source>&lt;b&gt;Inutoshi&lt;/b&gt; version</source>
+        <translation>Versión de &lt;b&gt;Inutoshi&lt;b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,8 +36,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+0"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Los desarrolladores de Dogecoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Los desarrolladores de Inutoshi</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -545,8 +545,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-401"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+163"/>
@@ -556,8 +556,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Acerca de Dogecoin Core</translation>
+        <source>&amp;About Inutoshi</source>
+        <translation>&amp;Acerca de Inutoshi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -581,8 +581,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Dogecoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Muestra el mensaje de ayuda Dogecoin Core para obtener una lista con las posibles opciones de la consola de comandos de Bitcoin</translation>
+        <source>Show the Inutoshi help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Muestra el mensaje de ayuda Inutoshi para obtener una lista con las posibles opciones de la consola de comandos de Bitcoin</translation>
     </message>
     <message>
         <location line="+159"/>
@@ -1114,13 +1114,13 @@ Dirección: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Dogecoin Core - Command-line options</source>
-        <translation>Dogecoin Core - Opciones de consola de comandos</translation>
+        <source>Inutoshi - Command-line options</source>
+        <translation>Inutoshi - Opciones de consola de comandos</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1172,17 +1172,17 @@ Dirección: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Bienvenido a Dogecoin Core</translation>
+        <source>Welcome to Inutoshi.</source>
+        <translation>Bienvenido a Inutoshi</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Inutoshi will store its data.</source>
         <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Bitcoin-Qt.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Dogecoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Inutoshi will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Bitcoin-Qt va a descargar y guardar una copia de la cadena de bloques de Bitcoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
@@ -2470,8 +2470,8 @@ Dirección: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+48"/>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Core se está cerrando...
+        <source>Inutoshi is shutting down...</source>
+        <translation>Inutoshi se está cerrando...
 </translation>
     </message>
     <message>
@@ -2671,13 +2671,13 @@ Dirección: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Dogecoin Core developers</source>
-        <translation>Los desarrolladores de Dogecoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Los desarrolladores de Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3489,8 +3489,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Dogecoin Core Daemon</source>
-        <translation>Proceso Dogecoin Core</translation>
+        <source>Inutoshi Daemon</source>
+        <translation>Proceso Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
