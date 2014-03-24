@@ -3,12 +3,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin Core</source>
+        <source>About Inutoshi</source>
         <translation>Despre Nucleul Bitcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Inutoshi&lt;/b&gt; version</source>
         <translation>&lt;b&gt;Nucleul Bitcoin &lt;/b&gt; versiune</translation>
     </message>
     <message>
@@ -33,8 +33,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin Core developers</source>
-        <translation>Dezvoltatorii Bitcoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Dezvoltatorii Inutoshi</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -542,8 +542,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-401"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+163"/>
@@ -553,7 +553,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Inutoshi</source>
         <translation>&amp;Despre Nucleul Bitcoin</translation>
     </message>
     <message>
@@ -578,7 +578,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Inutoshi help message to get a list with possible Bitcoin command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1111,13 +1111,13 @@ Adresa: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>Bitcoin Core - Command-line options</source>
-        <translation>Bitcoin Core - Opţiuni Linie de comandă</translation>
+        <source>Inutoshi - Command-line options</source>
+        <translation>Inutoshi - Opţiuni Linie de comandă</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1169,18 +1169,18 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitcoin Core.</source>
+        <source>Welcome to Inutoshi.</source>
         <translation>Bine Aţi Venit la Nucleul Bitcoin.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Inutoshi will store its data.</source>
         <translation>Dacă aceasta este prima dată când programul este lansat, puteţi alege unde Nucleul Bitcoin va stoca datele. </translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Nucleul Bitcoin Core se va descărca şi va stoca o copie a lanţului blocului Bitcoin. Cel puţin 1GB de date vor fi stocate in acest dosar şi se va dezvolta în timp. Portofelul va fi, de asemenea, stocat în acest dosar.</translation>
+        <source>Inutoshi will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Nucleul Inutoshi se va descărca şi va stoca o copie a lanţului blocului Bitcoin. Cel puţin 1GB de date vor fi stocate in acest dosar şi se va dezvolta în timp. Portofelul va fi, de asemenea, stocat în acest dosar.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2467,8 +2467,8 @@ Adresa: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+48"/>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Core se închide...</translation>
+        <source>Inutoshi is shutting down...</source>
+        <translation>Inutoshi se închide...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2667,13 +2667,13 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Inutoshi</source>
+        <translation>Inutoshi</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Bitcoin Core developers</source>
-        <translation>Dezvoltatorii Bitcoin Core</translation>
+        <source>The Inutoshi developers</source>
+        <translation>Dezvoltatorii Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3366,7 +3366,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
 </source>
         <translation>%s trebuie sa setezi o parola rpc in fisierul de configurare
 %s
@@ -3478,8 +3478,8 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta Bitcoin&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Bitcoin Core Daemon</source>
-        <translation>Daemon-ul Bitcoin Core</translation>
+        <source>Inutoshi Daemon</source>
+        <translation>Daemon-ul Inutoshi</translation>
     </message>
     <message>
         <location line="+1"/>
