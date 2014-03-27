@@ -317,7 +317,7 @@ RES_IMAGES = \
 
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-BITCOIN_RC = res/bitcoin-qt-res.rc
+INUTOSHI_RC = res/inutoshi-qt-res.rc
 
 libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -342,7 +342,7 @@ if TARGET_DARWIN
   inutoshi_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  inutoshi_qt_SOURCES += $(BITCOIN_RC)
+  inutoshi_qt_SOURCES += $(INUTOSHI_RC)
 endif
 inutoshi_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
