@@ -1,9 +1,9 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
+src/inutoshi
+src/inutoshid
+src/inutoshi-cli
 src/test/test_bitcoin
 src/qt/test/test_bitcoin-qt
 
@@ -50,8 +50,8 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+inutoshi-qt
+Inutoshi-Qt.app
 
 # Unit-tests
 Makefile.test
