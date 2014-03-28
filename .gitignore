@@ -3,7 +3,7 @@
 *.exe
 src/inutoshi
 src/inutoshid
-src/bitcoin-cli
+src/inutoshi-cli
 src/test/test_bitcoin
 src/qt/test/test_bitcoin-qt
 
