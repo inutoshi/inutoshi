@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Bitcoin in Unix. 
+Some notes on how to build Inutoshi in Unix. 
 
 To Build
 ---------------------
@@ -9,7 +9,7 @@ To Build
 	./configure
 	make
 
-This will build bitcoin-qt as well if the dependencies are met.
+This will build inutoshi-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -45,7 +45,7 @@ Licenses of statically linked libraries:
 - Versions used in this release:
 -  GCC           4.3.3
 -  OpenSSL       1.0.1c
--  Berkeley DB   4.8.30.NC
+-  Berkeley DB   4.8
 -  Boost         1.55
 -  miniupnpc     1.6
 -  qt            4.8.3
@@ -70,7 +70,7 @@ for Ubuntu 12.04 and later:
         sudo add-apt-repository ppa:bitcoin/bitcoin
         sudo apt-get update
 
- Ubuntu 12.04 and later have packages for libdb5.1-dev and libdb5.1++-dev,
+ Ubuntu 12.04 and later have packages for libdb4.8-dev and libdb4.8++-dev,
  but using these will break binary wallet compatibility, and is not recommended.
 
 for Ubuntu 13.10:
@@ -78,7 +78,6 @@ for Ubuntu 13.10:
 	remove libboost1.54-all-dev and install libboost1.53-all-dev instead.
 
 for Debian 7 (Wheezy) and later:
- The oldstable repository contains db4.8 packages.
  Add the following line to /etc/apt/sources.list,
  replacing [mirror] with any official debian mirror.
 
@@ -101,7 +100,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Bitcoin-Qt, make sure that the required packages for Qt development
+If you want to build Inutoshi-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
 To build without GUI pass `--without-gui`.
@@ -118,12 +117,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitcoin-qt executable will be
+Once these are installed, they will be found by configure and a inutoshi-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip bitcoind" to strip the debug
+The release is built with GCC and then "strip inutoshid" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -181,7 +180,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./bitcoin
+    	scanelf -e ./inutoshi
 
     The output should contain:
      TYPE
@@ -195,7 +194,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./bitcoin`
+    `scanelf -e ./inutoshi`
 
     the output should contain:
 	STK/REL/PTL
