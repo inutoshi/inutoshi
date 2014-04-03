@@ -84,12 +84,12 @@ MSYS shell:
 	mkdir miniupnpc
 	cp *.h miniupnpc/
 
-Bitcoin
+Dogecoin
 -------
 MSYS shell:
 
-	cd \bitcoin
+	cd \inutoshi
 	sh autogen.sh
 	sh configure
 	mingw32-make
-	strip bitcoind.exe
+	strip inutoshid.exe
